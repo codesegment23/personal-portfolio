@@ -1,0 +1,147 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.abril{
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 2px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px ;
+    padding-right: 30px ;
+}
+.navbar> ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+ul> li > a{
+    text-decoration: none;
+    color: black;
+    background: #6affe6;
+    padding: 5px;
+
+}
+
+header{
+    background: #E6E7EB;
+    padding: 40px 75px 0px 75px ;
+}
+
+.hero-section {
+    display: flex;
+    padding: 50px 25px 0px 25px ;
+}
+.header-first-half{
+    width: 50%;
+    padding: 40px 30px 0px 0px;
+}
+.header-first-half > button{
+   background: #000;
+   margin-top: 15px;
+   color: white;
+   padding: 10px 10px 10px 10px;
+   border-radius: 5px;
+}
+.header-second-half{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.header-second-half > img{
+    width: 60%;
+    height: 80%;
+    border-radius: 8px;
+}
+
+
+
+main{
+    padding: 80px 85px 0px 100px ;
+}
+
+/* top > right > bottom > left*/
+.domain-section {
+    display: flex;
+    padding: 80px 0px 80px 0px;
+}
+.domain-first-half{
+    width: 50%;
+}
+.domain-first-half > button{
+   background: #000;
+   margin-top: 15px;
+   color: white;
+   padding: 10px 10px 10px 10px;
+   border-radius: 5px;
+}
+.domain-second-half{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.domain-second-half > img{
+    width: 70%;
+    border-radius: 8px;
+}
+
+.domain-section .badge{
+    background: #03FFC5;
+    margin-right: 10px;
+    padding: 5px;
+}
+.domain-first-half .latest-work{
+color: #B7B4B9;
+text-transform: uppercase;
+}
+
+.domain-first-half > p{
+margin-top: 40px;
+}
+
+
+
+
+/* top > right > bottom > left*/
+.luxery-section {
+    display: flex;
+    padding: 80px 0px 80px 0px;
+}
+.luxery-first-half{
+    width: 50%;
+}
+.luxery-first-half > button{
+   background: #000;
+   margin-top: 15px;
+   color: white;
+   padding: 10px 10px 10px 10px;
+   border-radius: 5px;
+}
+.luxery-second-half{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.luxery-second-half > img{
+    width: 70%;
+    border-radius: 8px;
+}
+
+.luxery-section .badge{
+    background: #03FFC5;
+    margin-right: 10px;
+    padding: 5px;
+}
+.luxery-first-half .latest-work{
+color: #B7B4B9;
+text-transform: uppercase;
+}
+
+.luxery-first-half > p{
+margin-top: 40px;
+}
